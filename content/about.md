@@ -23,7 +23,7 @@ I am Sahil (he/him) and I am a technology enthusiast eager to learn and solve re
 
 ## Hobbies ✨
 
-I enjoy art and crafts🎨, visintg the beach🌊 and exploring new places! I play the guitar🎸 and going out for live gigs is my faviourite kind of outing! I also love playing sports like badminton and volleyball.
+I enjoy art and crafts🎨, visiting the beach🌊 and exploring new places! I play the guitar🎸 and going out for live gigs is my favourite kind of outing! I also love playing sports like badminton and volleyball.
 
 
 
