@@ -6,7 +6,7 @@ title = "About"
 
 Welcome!!
 
-I am Sahil (he/him) and I am a technology enthusiast eager to learn and solve real-world problems that involve latest technologies, design elements and at their core are problem solving questions. I am very curious about how different design techniques and methods work to reach to the solution effectively while considering all possible perspectives to the problem. I am passionate about working on System Design, Complex Technical Architectures, Unbiased Machine Learning algorithms and Cloud Technologies.
+I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems using cutting-edge technologies and design principles. I am deeply curious about employing diverse design techniques and methods to effectively address challenges. My approach always begins with considering multiple perspectives while solving problems, the most efficient path to reach a solution comprehensively and the learning involved in the same. I am particularly enthusiastic about working on system design, complex technical architectures, unbiased machine learning algorithms, and cloud technologies.
 
 
 ## Experience
