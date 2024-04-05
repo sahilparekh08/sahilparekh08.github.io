@@ -7,4 +7,4 @@ title = "Connect"
 - 💼 [LinkedIn](https://www.linkedin.com/in/parekh-sahil/)
 - 🖥️ [GitHub](https://github.com/sahilparekh08)
 - 📧 [sahilparekh08@gmail.com](mailto:sahilparekh08@gmail.com)
-- 📍 Philadelphia, PA
+- 📍 Philadelphia, US || Mumbai, India
