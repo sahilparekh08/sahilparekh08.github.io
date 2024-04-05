@@ -11,9 +11,9 @@ I am Sahil (he/him), a technology enthusiast driven by a passion for learning an
 
 ## Experience
 #### Corporate and Investment Banking, JP Morgan Chase & Co.
-1. Software Engineer II \t\t\tFeb 2023 - Jul 2023
-2. Software Engineer I  \t\t\tAug 2020 - Jan 2023
-3. Software Engineer Intern \t\t\tJan 2020 - Jul 2020
+1. Software Engineer II&emsp;&emsp;&emsp;Feb 2023 - Jul 2023
+2. Software Engineer I&emsp;&emsp;&emsp;Aug 2020 - Jan 2023
+3. Software Engineer Intern&emsp;&emsp;Jan 2020 - Jul 2020
 
 
 ## Education
