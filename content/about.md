@@ -17,8 +17,8 @@ I am Sahil (he/him), a technology enthusiast driven by a passion for learning an
 
 
 ## Education
-- MSE in Computer and Information Science from University of Pennsylvania _Current_
-- Bachelor of Engineering in Information Technology [CGPA: 9.53/10] from University of Mumbai 2016-2020
+- MSE in Computer and Information Science from University of Pennsylvania (Current)
+- Bachelor of Engineering in Information Technology [CGPA: 9.53/10] from University of Mumbai (2016-2020)
 
 
 ## Hobbies ✨
