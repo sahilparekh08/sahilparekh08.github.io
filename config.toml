@@ -92,8 +92,3 @@ paginate = 5
         name = "Connect"
         url = "/connect"
         weight = 4
-      [[languages.en.menu.main]]
-        identifier = "resume"
-        name = "Resume"
-        url = "/resume"
-        weight = 5
