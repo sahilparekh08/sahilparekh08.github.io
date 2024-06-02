@@ -2,4 +2,4 @@
 title = "Resume"
 +++
 
-{{< embed-pdf url="../static/Sahil_Parekh_Resume.pdf" >}}
+{{< embed-pdf url="./Sahil_Parekh_Resume.pdf" >}}
