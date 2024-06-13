@@ -1,6 +1,6 @@
 ---
 title: "Algorithmic Strategies for Competitive Games"
-date: 2024-12-01
+date: 2023-12-01
 ---
 
 ## 1. Parallel Football
