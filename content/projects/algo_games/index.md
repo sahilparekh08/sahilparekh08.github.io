@@ -3,6 +3,16 @@ title: "Algorithmic Strategies for Competitive Games"
 date: 2023-12-01
 ---
 
+The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a "player" for each game by periodically testing your strategies against other teams.
+
+The 4 projects involved as a part of this are:
+1. Parallel Football
+2. Organisms
+3. Seven
+4. Mosquito
+
+These projects are a part of the course CIS 5590: Programming and Problem Solve (Fall 2023). Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.
+
 ## 1. Parallel Football
 
 Parallel Football is a team game, played on a 32x32 grid by four teams. Each team has P players, each occupying a cell, and a home cell located at a corner of the grid. Each cell except for the home cells begins with a football, totaling 1020 footballs overall. The objective is to kick balls to the team's home cell. Teams designate their players' initial positions. Players can move one cell in any direction or kick a football within a K-cell range. Although cells may contain multiple balls, players can kick only one ball at a time. However, multiple players can kick simultaneously if enough balls are present. Scoring is achieved when a ball reaches a home cell, and the aim is to score as many goals as possible. To accomplish this, teams must strategically define their players' initial positions and movements.
