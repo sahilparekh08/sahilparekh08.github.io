@@ -12,3 +12,5 @@ The system also provides an admin console which shows information about the numb
 ![System Architecture](system_arch.jpg)
 
 GitHub Repo: [PennCloud](https://github.com/sahilparekh08/PennCloud)
+
+NOTE: This project was a part of the course CIS 5050: Software Systems (Spring 2024), University of Pennsylvania

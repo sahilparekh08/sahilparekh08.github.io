@@ -11,7 +11,7 @@ The 4 projects involved as a part of this are:
 3. Seven
 4. Mosquito
 
-These projects are a part of the course CIS 5590: Programming and Problem Solve (Fall 2023). Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.
+These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.
 
 ## 1. Parallel Football
 
