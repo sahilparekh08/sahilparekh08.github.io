@@ -10,3 +10,11 @@ It was the middle of the Covid-19 global pandemic and among the worst hit in the
 The application consisted of a student and instructor portal which were analogous to a customer and admin portal. Each school could have its own instructor portal, course management systems and grading systems. Students could register as a part of a school or as individuals to learn publicly available courses. The application was also made to be lightweight and consume low bandwidth especially during video streaming so as to perform well in poor network conditions.
 
 I worked on the backend development, primarily on the API structure design, development, testing and connectivity to the front end. I also worked on designing the AWS infrastructure, configuring security policies and setting up S3 and DynamoDB after doing a cost analysis.
+
+<img src="lms_home" alt="Home Screen" width="300"/>
+
+<img src="lms_course" alt="Course Screen" width="300"/>
+
+<img src="lms_learning_path" alt="Learning Path Screen" width="300"/>
+
+<img src="lms_admin" alt="Admin Console Screen" width="300"/>
