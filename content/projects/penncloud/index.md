@@ -11,8 +11,4 @@ The system also provides an admin console which shows information about the numb
 
 ![System Architecture](/system_arch.jpg)
 
-<p align="center">
-  <img src="../../static/penncloud/system_arch.jpg" alt="System Architecture"/>
-</p>
-
 GitHub Repo: [PennCloud](https://github.com/sahilparekh08/PennCloud)
