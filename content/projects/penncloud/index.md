@@ -9,6 +9,6 @@ The system accepts requests for any user on a static address which belongs to a 
 
 The system also provides an admin console which shows information about the number of active and inactive frontend and backend servers, the partitions assigned to each backend servers and the ability to stop and restart frontend and backend servers to aid in scalability.
 
-![System Architecture](/system_arch.jpg)
+![System Architecture](system_arch.jpg)
 
 GitHub Repo: [PennCloud](https://github.com/sahilparekh08/PennCloud)
