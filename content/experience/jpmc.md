@@ -13,5 +13,5 @@ I started my journey with JP Morgan Chase & Co. in their investment banking regu
 
 Some of the technologies I used extensively:
 1. Languages: Java, SQL, bash, Python
-2. Frameworks and Technologies: Spring boot, Apache Kafka, FIX Engine, MongoDB, EhCache, Oracle BDB, Hadoop, Oracle Exadata
-3. Tools: Docker, Kubernetes, Jenkins, Control-M, Gradle, Maven, Git
+2. Frameworks and Technologies: Spring, JUnit, Mockito, Apache Kafka, FIX Engine, MongoDB, EhCache, Oracle BDB, Hadoop, Oracle Exadata
+3. Tools: Docker, Kubernetes, AWS, Jenkins, Control-M, Splunk, Dynatrace, Gradle, Maven, Git
