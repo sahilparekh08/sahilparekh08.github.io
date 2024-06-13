@@ -11,10 +11,10 @@ The application consisted of a student and instructor portal which were analogou
 
 I worked on the backend development, primarily on the API structure design, development, testing and connectivity to the front end. I also worked on designing the AWS infrastructure, configuring security policies and setting up S3 and DynamoDB after doing a cost analysis.
 
-<img src="lms_home" alt="Home Screen" width="300"/>
+<img src="lms_home.png" alt="Home Screen" width="300"/>
 
-<img src="lms_course" alt="Course Screen" width="300"/>
+<img src="lms_course.png" alt="Course Screen" width="300"/>
 
-<img src="lms_learning_path" alt="Learning Path Screen" width="300"/>
+<img src="lms_learning_path.png" alt="Learning Path Screen" width="300"/>
 
-<img src="lms_admin" alt="Admin Console Screen" width="300"/>
+<img src="lms_admin.png" alt="Admin Console Screen" width="300"/>
