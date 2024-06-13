@@ -7,7 +7,7 @@ date: 2023-12-01
 
 Parallel Football is a team game, played on a 32x32 grid by four teams. Each team has P players, each occupying a cell, and a home cell located at a corner of the grid. Each cell except for the home cells begins with a football, totaling 1020 footballs overall. The objective is to kick balls to the team's home cell. Teams designate their players' initial positions. Players can move one cell in any direction or kick a football within a K-cell range. Although cells may contain multiple balls, players can kick only one ball at a time. However, multiple players can kick simultaneously if enough balls are present. Scoring is achieved when a ball reaches a home cell, and the aim is to score as many goals as possible. To accomplish this, teams must strategically define their players' initial positions and movements.
 
-![parallel_football.png](Game Board Screenshot)
+![Game Board Screenshot](parallel_football.png)
 
 ## 2. Organisms
 
@@ -15,7 +15,7 @@ Parallel Football is a team game, played on a 32x32 grid by four teams. Each tea
 
 There are multiple ways to define success in the context of this project. Our group’s goal was to create an adaptable, versatile brain that is able to survive in many different environments.
 
-![organisms.png](Game Board Screenshot)
+![Game Board Screenshot](organisms.png)
 
 ## 3. Seven
 
@@ -23,7 +23,7 @@ Seven, a Scrabble inspired game entails creating a player whose task is to bid o
 
 The team created a player whose bidding strategy relied on a combination of trying to make 7 letter words by using the letters efficiently by determining the best ‘n’ future words we can make at every bidding round and a ‘memory’ heuristic which kept track of the previous winning and highest bids made for the letter over the rounds
 
-![seven.png](Game Board Screenshot)
+![Game Board Screenshot](seven.png)
 
 ## 4. Mosquito
 
@@ -31,4 +31,4 @@ Mosquito is a single player game with very simple gameplay. Before a game starts
 
 The team developed a player called Itchy Infantry that has a greedy approach to Mosquito. Itchy Infantry simulates many rounds and returns the best simulated round’s lights and collector. Within the simulation, it places the first light and the collector in what it perceives as one of the most open spots, and has a greedy approach afterwards, placing lights in the position that covers the most open area.
 
-![mosquito.png](Game Board Screenshot)
+![Game Board Screenshot](mosquito.png)
