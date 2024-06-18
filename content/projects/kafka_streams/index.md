@@ -8,11 +8,7 @@ This is a Java based application demonstrating stream processing applications us
 GitHub Repo: [Kafka-Streams-App](https://github.com/sahilparekh08/Kafka-Streams-App)
 
 Refernces:
-
-[Kafka: a Distributed Messaging System for Log Processing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf) by Jay Kreps, Neha Narkhede, Jun Rao; NetDB workshop '11, 2011
-
-[Streams and Tables: Two Sides of the Same Coin](https://dl.acm.org/doi/10.1145/3242153.3242155) by Matthias J. Sax, Guozhang Wang, Matthias Weidlich, Johann-Christoph Freytag; BIRTE '18: Proceedings of the International Workshop on Real-Time Business Intelligence and Analytics, 2018
-
-https://kafka.apache.org/37/documentation/streams/core-concepts
-
-https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html
+1. [Kafka: a Distributed Messaging System for Log Processing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf) by Jay Kreps, Neha Narkhede, Jun Rao; NetDB workshop '11, 2011
+2. [Streams and Tables: Two Sides of the Same Coin](https://dl.acm.org/doi/10.1145/3242153.3242155) by Matthias J. Sax, Guozhang Wang, Matthias Weidlich, Johann-Christoph Freytag; BIRTE '18: Proceedings of the International Workshop on Real-Time Business Intelligence and Analytics, 2018
+3. https://kafka.apache.org/37/documentation/streams/core-concepts
+4. https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html
