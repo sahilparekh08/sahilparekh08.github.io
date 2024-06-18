@@ -1,6 +1,6 @@
 ---
 title: "An Approach to Reducing Uncertainty Problem in NIDS"
-date: 2019-05-01
+date: 2019-09-01
 ---
 
 Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.
