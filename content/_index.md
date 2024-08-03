@@ -12,7 +12,8 @@ Corporate and Investment Banking, JP Morgan Chase & Co.
 3. Software Engineer Intern         (Jan 2020 - Jul 2020)
 
 University of Pennsylvania
-1. Teaching Assistant               (Aug 2023 - May 2024)
+1. Research Assistant               (Jun 2024 - Present)
+2. Teaching Assistant               (Aug 2023 - May 2024)
 
 
 ## Education
