@@ -6,7 +6,7 @@ title = "About"
 
 Welcome!!
 
-I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems using cutting-edge technologies and design principles. I am deeply curious about employing diverse design techniques and methods to effectively address challenges. My approach always begins with considering multiple perspectives while solving problems, the most efficient path to reach a solution comprehensively and the learning involved. I am particularly enthusiastic about working on system design, performance optimisation, concurrency, machine learning and cloud technologies.
+I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems. I am deeply curious about employing diverse design techniques and methods to effectively address challenges. My approach always begins with considering multiple perspectives, aiming for the most efficient path to reach a comprehensive solution while maximizing the learning involved. I am particularly enthusiastic about building large-scale systems, working on system design, performance optimization, machine learning, and cloud technologies, and collaborating with peers.
 
 
 ## Experience
