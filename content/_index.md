@@ -1,7 +1,3 @@
-+++
-title = "About"
-+++
-
 ## Hey!👋🏽
 
 Welcome!!
