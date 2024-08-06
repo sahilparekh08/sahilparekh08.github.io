@@ -7,7 +7,7 @@ The aim of this project is to create a predictive model to determine the viral p
 
 By analyzing these datasets, we developed a robust predictive model that can forecast the likelihood of a song going viral. This was achieved by examining both the intrinsic qualities of the songs and their historical performance on Spotify charts. Each section of our Jupyter Notebook (added to the GitHub repository linked below) is carefully annotated to explain the rationale behind our analysis, the methodologies employed, and the insights derived from the findings.
 
-The notbook is divided into the following major parts:
+The notebook is divided into the following major parts:
 1. Data Loading: This done by loading the aforementioned datasets onto an Apache Spark cluster
 2. Exploratory Data Analysis: The aim is to analyze various characteristics of songs to forecast their likelihood of becoming popular and making it to the trending charts. We hypothesize that certain song attributes, such as energy, danceability, and tempo, significantly influence their popularity
 3. Data Cleaning and Pre-processing: This step is a precursor to making the data ready to be fed into our classification models
