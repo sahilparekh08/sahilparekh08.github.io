@@ -2,7 +2,7 @@
 
 Welcome!!
 
-I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems. I am deeply curious about employing diverse design techniques and methods to effectively address challenges. My approach always begins with considering multiple perspectives, aiming for the most efficient path to reach a comprehensive solution while maximizing the learning involved. I am particularly enthusiastic about building high performance, large scale fault-tolerant systems and employing scalabe design principles, performance optimization techniques, machine learning, and cloud technologies.
+I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems. My approach always begins with considering multiple perspectives and aiming for the most efficient path to reach a comprehensive solution while maximizing the learning involved. I am particularly enthusiastic about employing scalable design principles, performance optimization techniques, machine learning, and cloud technologies to build high performance, large scale, fault-tolerant systems.
 
 
 ## Experience
