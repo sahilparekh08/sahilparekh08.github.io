@@ -11,7 +11,7 @@ Key terms:
 - gRPC
 - Dynamic membership of servers
 - load rebalancing
-- Paxos for consistency
+- Causal Consistency 
 - HTTP web server
 
 The system accepts requests for any user on a static address which belongs to a load balancer. The load balancer then redirects the user to an active frontend server which accepts different kinds of HTTP requests. The load balancer keeps track of all active frontend servers, also providing the ability to scale the frontend layer. The user requests are redirected to a backend layer which comprises of stateless backend servers and a Key-Value store, ensuring durability, consistency and availability. Managed by a coordinator, the backend layer supports dynamic membership, allowing for the seamless integration of new backend servers.
