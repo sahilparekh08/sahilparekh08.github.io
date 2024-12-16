@@ -14,7 +14,7 @@
     <loc>//localhost:1313/experience/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/experience/upenn/__index/</loc>
+    <loc>//localhost:1313/experience/upenn/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/penncloud/__index/</loc>
@@ -29,7 +29,7 @@
     <loc>//localhost:1313/projects/algo_games/__index/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/experience/jpmc/__index/</loc>
+    <loc>//localhost:1313/experience/jpmc/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/lms/__index/</loc>
@@ -39,6 +39,8 @@
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/ndex/</loc>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>

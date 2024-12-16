@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>University of Pennsylvania</title>
-      <link>//localhost:1313/experience/upenn/__index/</link>
+      <link>//localhost:1313/experience/upenn/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/experience/upenn/__index/</guid>
+      <guid>//localhost:1313/experience/upenn/</guid>
       <description>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
 &lt;p&gt;I was a Research Assistant with Dr. Linh Thi Xuan Phan where I studied and built scheduling algorithms on Linux based multi-core platforms for safely scheduling real-time tasks during Summer 2024. Her I gained experience on writing and debugging kernel code, building system calls and developing and testing new kerbel scheduling policies such as EDF. I also utilised technologies like Memguard and Intel-CAT for resource allocation and management between tasks running on the kerbel.&lt;/p&gt;</description>
       <content>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>JP Morgan Chase &amp; Co.</title>
-      <link>//localhost:1313/experience/jpmc/__index/</link>
+      <link>//localhost:1313/experience/jpmc/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/experience/jpmc/__index/</guid>
+      <guid>//localhost:1313/experience/jpmc/</guid>
       <description>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
 &lt;p&gt;I started my journey with JP Morgan Chase &amp;amp; Co. in their investment banking regulatory reporting department as an intern during my last undergraduate semester. I started by understanding the domain of regulatory reporting and the trade life cycle. Since our team handled real-time regulatory reporting for the investment firm, I got to work on real-time low-latency systems, streaming and batch frameworks and cloud microservice architectures with multiple scalable components. I also worked on its own custom streaming and batch framework to gain a processing throughput of about 4 million messages a day with a average of 0.17 seconds of end-to-end latency per message. We also used docker and Kubernetes to deploy most of our microservices on cloud and some services on our data centers as required by regulatory authorities. There is also a complex networking structure in a hybrid network. With developing these models from scratch, I learnt a lot about system design, analysing frameworks, streaming and batch systems and how to find, analyse and remediate performance bottlenecks.&lt;/p&gt;</description>
       <content>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;

@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contact on Sahil Parekh</title>
+    <title>Contacts on Sahil Parekh</title>
     <link>//localhost:1313/contact/</link>
-    <description>Recent content in Contact on Sahil Parekh</description>
+    <description>Recent content in Contacts on Sahil Parekh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="//localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>//localhost:1313/contact/ndex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/contact/ndex/</guid>
+      <description>&lt;h4 id=&#34;reach-out-to-me-to-discuss-anything-data-systems-tech-even-music-or-just-drop-in-to-say-hi&#34;&gt;Reach out to me to discuss anything Data, Systems, Tech (even Music) or just drop in to say hi!&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;💼 &lt;a href=&#34;https://www.linkedin.com/in/parekh-sahil/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖥️ &lt;a href=&#34;https://github.com/sahilparekh08&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📧 &lt;a href=&#34;mailto:sahilparekh08@gmail.com&#34;&gt;sahilparekh08@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📍 Philadelphia, USA || Mumbai, India&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content>&lt;h4 id=&#34;reach-out-to-me-to-discuss-anything-data-systems-tech-even-music-or-just-drop-in-to-say-hi&#34;&gt;Reach out to me to discuss anything Data, Systems, Tech (even Music) or just drop in to say hi!&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;💼 &lt;a href=&#34;https://www.linkedin.com/in/parekh-sahil/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖥️ &lt;a href=&#34;https://github.com/sahilparekh08&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📧 &lt;a href=&#34;mailto:sahilparekh08@gmail.com&#34;&gt;sahilparekh08@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📍 Philadelphia, USA || Mumbai, India&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
