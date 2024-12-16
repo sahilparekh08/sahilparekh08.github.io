@@ -12,6 +12,33 @@ and deliver relevant search results. It consists of four major components:&lt;/p
 &lt;p>One can submit a Job (such as crawler.jar) to the Flame Coordinator, which will then distribute the job to multiple Flame Workers. The workers will then fetch the data from the KV store (interacting with the KVS Coordinator and subsequently with relevant KVS Workers), process it according to the functions and lambdas specified by the submitted job and write the results back to the KV store. The KV store is also responsible for storing the intermediate results of the computation.&lt;/p>
 &lt;p>The most fundamental unit of computation of the Flame framework are FlameRDDs and FlamePairRDDs. The framework also exposes functions on these RDDs such as map, mapToPair, flatMap, flatMapToPair, foldByKey, filter, join, etc. which can be used to perform complex distributed computations.&lt;/p>
 &lt;p>Communication between the components is done using the HTTP protocol. All the components run a multithreaded HTTP webserver to process requests. The KV Store persists data in Protobuf format.&lt;/p>
+&lt;p>&lt;strong>Key Features&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Crawler&lt;/th>
+&lt;th>Indexer&lt;/th>
+&lt;th>PageRank&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Intra-server multithreading&lt;/td>
+&lt;td>Indexed URLs on page content, meta tags and site properties&lt;/td>
+&lt;td>Optimised memory footprint&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>URL Depth limiting and priority based sampling to ensure host diversity&lt;/td>
+&lt;td>Utilised stemming and tokenisation&lt;/td>
+&lt;td>Implemented per epoch checkpointing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Integrated host blacklists&lt;/td>
+&lt;td>Built a batch processing mode&lt;/td>
+&lt;td>Implemented heuristics to prevent sink URL problem&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;p>&lt;img alt="System Architecture" src="/projects/crawl_and_order/arch.jpg">&lt;/p>
 &lt;p>&lt;img alt="High Level Flow" src="/projects/crawl_and_order/high_level_approach.png">&lt;/p>
 &lt;p>&lt;img alt="Home Page" src="/projects/crawl_and_order/home_page.png">&lt;/p>
