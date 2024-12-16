@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sahil Parekh&#39;s Personal Website</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sahil Parekh&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crawl And Order, a Distributed Search Engine</title>
+      <link>http://localhost:1313/projects/crawl_and_order/__index/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/crawl_and_order/__index/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Crawl and Order&lt;/strong&gt; is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
+and deliver relevant search results. It consists of four major components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;strong&gt;Crawl and Order&lt;/strong&gt; is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
+and deliver relevant search results. It consists of four major components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.&lt;/p&gt;
+&lt;p&gt;One can submit a Job (such as crawler.jar) to the Flame Coordinator, which will then distribute the job to multiple Flame Workers. The workers will then fetch the data from the KV store (interacting with the KVS Coordinator and subsequently with relevant KVS Workers), process it according to the functions and lambdas specified by the submitted job and write the results back to the KV store. The KV store is also responsible for storing the intermediate results of the computation.&lt;/p&gt;
+&lt;p&gt;The most fundamental unit of computation of the Flame framework are FlameRDDs and FlamePairRDDs. The framework also exposes functions on these RDDs such as map, mapToPair, flatMap, flatMapToPair, foldByKey, filter, join, etc. which can be used to perform complex distributed computations.&lt;/p&gt;
+&lt;p&gt;Communication between the components is done using the HTTP protocol. All the components run a multithreaded HTTP webserver to process requests. The KV Store persists data in Protobuf format.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./arch.jpg&#34; alt=&#34;System Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;high_level_approach.png&#34; alt=&#34;High Level Flow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;home_page.png&#34; alt=&#34;Home Page&#34;&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Repo: &lt;a href=&#34;https://github.com/sahilparekh08/Crawl-And-Order&#34;&gt;Crawl-And-Order&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NOTE: This project was a part of the course CIS 5550: Internet and Web Systems (Fall 2024), University of Pennsylvanai&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>University of Pennsylvania</title>
+      <link>http://localhost:1313/experience/upenn/__index/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/upenn/__index/</guid>
+      <description>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
+&lt;p&gt;I was a Research Assistant with Dr. Linh Thi Xuan Phan where I studied and built scheduling algorithms on Linux based multi-core platforms for safely scheduling real-time tasks during Summer 2024. Her I gained experience on writing and debugging kernel code, building system calls and developing and testing new kerbel scheduling policies such as EDF. I also utilised technologies like Memguard and Intel-CAT for resource allocation and management between tasks running on the kerbel.&lt;/p&gt;</description>
+      <content>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
+&lt;p&gt;I was a Research Assistant with Dr. Linh Thi Xuan Phan where I studied and built scheduling algorithms on Linux based multi-core platforms for safely scheduling real-time tasks during Summer 2024. Her I gained experience on writing and debugging kernel code, building system calls and developing and testing new kerbel scheduling policies such as EDF. I also utilised technologies like Memguard and Intel-CAT for resource allocation and management between tasks running on the kerbel.&lt;/p&gt;
+&lt;p&gt;I have also served as a Teaching Assistant for the following courses:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;CIS 3310 (Fall 2023 and CIS 5510 (Spring 2024) Networks and Security course instructed by Dr. Sebastian Angel&lt;/li&gt;
+&lt;li&gt;CIS 5050 (Fall 2024) Software Systems course instructed by Dr. Linh Thi Xuan Phan&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>PennCloud</title>
+      <link>http://localhost:1313/projects/penncloud/__index/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/penncloud/__index/</guid>
+      <description>&lt;p&gt;PennCloud exemplifies a distributed, scalable, and fault-tolerant system. It encompasses a frontend interface enabling users to send emails to PennCloud users and external users, store and retrieve files and manage related folders and work on collaborative spreadsheets. The system also offers user authentication and password management.&lt;/p&gt;
+&lt;p&gt;Key terms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Checkpointing&lt;/li&gt;
+&lt;li&gt;Logging&lt;/li&gt;
+&lt;li&gt;gRPC&lt;/li&gt;
+&lt;li&gt;Dynamic membership of servers&lt;/li&gt;
+&lt;li&gt;load rebalancing&lt;/li&gt;
+&lt;li&gt;Causal Consistency&lt;/li&gt;
+&lt;li&gt;HTTP web server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system accepts requests for any user on a static address which belongs to a load balancer. The load balancer then redirects the user to an active frontend server which accepts different kinds of HTTP requests. The load balancer keeps track of all active frontend servers, also providing the ability to scale the frontend layer. The user requests are redirected to a backend layer which comprises of stateless backend servers and a Key-Value store, ensuring durability, consistency and availability. Managed by a coordinator, the backend layer supports dynamic membership, allowing for the seamless integration of new backend servers.&lt;/p&gt;</description>
+      <content>&lt;p&gt;PennCloud exemplifies a distributed, scalable, and fault-tolerant system. It encompasses a frontend interface enabling users to send emails to PennCloud users and external users, store and retrieve files and manage related folders and work on collaborative spreadsheets. The system also offers user authentication and password management.&lt;/p&gt;
+&lt;p&gt;Key terms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Checkpointing&lt;/li&gt;
+&lt;li&gt;Logging&lt;/li&gt;
+&lt;li&gt;gRPC&lt;/li&gt;
+&lt;li&gt;Dynamic membership of servers&lt;/li&gt;
+&lt;li&gt;load rebalancing&lt;/li&gt;
+&lt;li&gt;Causal Consistency&lt;/li&gt;
+&lt;li&gt;HTTP web server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system accepts requests for any user on a static address which belongs to a load balancer. The load balancer then redirects the user to an active frontend server which accepts different kinds of HTTP requests. The load balancer keeps track of all active frontend servers, also providing the ability to scale the frontend layer. The user requests are redirected to a backend layer which comprises of stateless backend servers and a Key-Value store, ensuring durability, consistency and availability. Managed by a coordinator, the backend layer supports dynamic membership, allowing for the seamless integration of new backend servers.&lt;/p&gt;
+&lt;p&gt;The system also provides an admin console which shows information about the number of active and inactive frontend and backend servers, the partitions assigned to each backend servers and the ability to stop and restart frontend and backend servers to aid in scalability.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;system_arch.jpg&#34; alt=&#34;System Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Repo: &lt;a href=&#34;https://github.com/sahilparekh08/PennCloud&#34;&gt;PennCloud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NOTE: This project was a part of the course CIS 5050: Software Systems (Spring 2024), University of Pennsylvanai&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Spotify Trending Song Prediction</title>
+      <link>http://localhost:1313/projects/spotify_proj/__index/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/spotify_proj/__index/</guid>
+      <description>&lt;p&gt;The aim of this project is to create a predictive model to determine the viral potential of songs based on a comprehensive analysis of song statistics. To achieve this, we utilized two primary datasets from Spotify. The first dataset contains detailed information on over 1.2 million songs, including their energy index, danceability, liveness, tempo, and other musical features. The second dataset contains information on the performance of songs across various Spotify charts, detailing their presence and duration within these charts throughout different years.&lt;/p&gt;</description>
+      <content>&lt;p&gt;The aim of this project is to create a predictive model to determine the viral potential of songs based on a comprehensive analysis of song statistics. To achieve this, we utilized two primary datasets from Spotify. The first dataset contains detailed information on over 1.2 million songs, including their energy index, danceability, liveness, tempo, and other musical features. The second dataset contains information on the performance of songs across various Spotify charts, detailing their presence and duration within these charts throughout different years.&lt;/p&gt;
+&lt;p&gt;By analyzing these datasets, we developed a robust predictive model that can forecast the likelihood of a song going viral. This was achieved by examining both the intrinsic qualities of the songs and their historical performance on Spotify charts. Each section of our Jupyter Notebook (added to the GitHub repository linked below) is carefully annotated to explain the rationale behind our analysis, the methodologies employed, and the insights derived from the findings.&lt;/p&gt;
+&lt;p&gt;The notebook is divided into the following major parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Data Loading: This done by loading the aforementioned datasets onto an Apache Spark cluster&lt;/li&gt;
+&lt;li&gt;Exploratory Data Analysis: The aim is to analyze various characteristics of songs to forecast their likelihood of becoming popular and making it to the trending charts. We hypothesize that certain song attributes, such as energy, danceability, and tempo, significantly influence their popularity&lt;/li&gt;
+&lt;li&gt;Data Cleaning and Pre-processing: This step is a precursor to making the data ready to be fed into our classification models&lt;/li&gt;
+&lt;li&gt;Classification Models: We compare three types of classification models which are themselves built iteratively. The 3 models are:
+a. Logistic Regression model
+b. Neural Network based models
+c. Decision Tree based models&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;GitHub Repo: &lt;a href=&#34;https://github.com/sahilparekh08/Spotify-Trending-Song-Prediction&#34;&gt;Spotify-Trending-Song-Prediction&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Kafka Streams Application</title>
+      <link>http://localhost:1313/projects/kafka_streams/__index/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/kafka_streams/__index/</guid>
+      <description>&lt;p&gt;This is a Java based application demonstrating stream processing applications using Kafka. The app consists of a bash script giving the user flexibility to spin up their own Apache Kafka cluster with configurable number of machines, replicatino factor and the ability to create their own topics. It also provides the users a Producer and Consumer API, the ability to read PDF files word by word using Apache PDFBox. Gradle is used for dependency management. The application shows a word count example utilizing a sliding window property of streams and fetching the top N highest occuring non-ordinary and ordinary (articles, pronouns, prepositions, etc) words in a collection of PDF files.&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is a Java based application demonstrating stream processing applications using Kafka. The app consists of a bash script giving the user flexibility to spin up their own Apache Kafka cluster with configurable number of machines, replicatino factor and the ability to create their own topics. It also provides the users a Producer and Consumer API, the ability to read PDF files word by word using Apache PDFBox. Gradle is used for dependency management. The application shows a word count example utilizing a sliding window property of streams and fetching the top N highest occuring non-ordinary and ordinary (articles, pronouns, prepositions, etc) words in a collection of PDF files.&lt;/p&gt;
+&lt;p&gt;GitHub Repo: &lt;a href=&#34;https://github.com/sahilparekh08/Kafka-Streams-App&#34;&gt;Kafka-Streams-App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Refernces:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf&#34;&gt;Kafka: a Distributed Messaging System for Log Processing&lt;/a&gt; by Jay Kreps, Neha Narkhede, Jun Rao; NetDB workshop &amp;lsquo;11, 2011&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3242153.3242155&#34;&gt;Streams and Tables: Two Sides of the Same Coin&lt;/a&gt; by Matthias J. Sax, Guozhang Wang, Matthias Weidlich, Johann-Christoph Freytag; BIRTE &amp;lsquo;18: Proceedings of the International Workshop on Real-Time Business Intelligence and Analytics, 2018&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/37/documentation/streams/core-concepts&#34;&gt;https://kafka.apache.org/37/documentation/streams/core-concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html&#34;&gt;https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Algorithmic Strategies for Competitive Games</title>
+      <link>http://localhost:1313/projects/algo_games/__index/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/algo_games/__index/</guid>
+      <description>&lt;p&gt;The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &amp;ldquo;player&amp;rdquo; for each game by periodically testing your strategies against other teams.&lt;/p&gt;
+&lt;p&gt;The 4 projects involved as a part of this are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Parallel Football&lt;/li&gt;
+&lt;li&gt;Organisms&lt;/li&gt;
+&lt;li&gt;Seven&lt;/li&gt;
+&lt;li&gt;Mosquito&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.&lt;/p&gt;</description>
+      <content>&lt;p&gt;The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &amp;ldquo;player&amp;rdquo; for each game by periodically testing your strategies against other teams.&lt;/p&gt;
+&lt;p&gt;The 4 projects involved as a part of this are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Parallel Football&lt;/li&gt;
+&lt;li&gt;Organisms&lt;/li&gt;
+&lt;li&gt;Seven&lt;/li&gt;
+&lt;li&gt;Mosquito&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.&lt;/p&gt;
+&lt;h2 id=&#34;1-parallel-football&#34;&gt;1. Parallel Football&lt;/h2&gt;
+&lt;p&gt;Parallel Football is a team game, played on a 32x32 grid by four teams. Each team has P players, each occupying a cell, and a home cell located at a corner of the grid. Each cell except for the home cells begins with a football, totaling 1020 footballs overall. The objective is to kick balls to the team&amp;rsquo;s home cell. Teams designate their players&amp;rsquo; initial positions. Players can move one cell in any direction or kick a football within a K-cell range. Although cells may contain multiple balls, players can kick only one ball at a time. However, multiple players can kick simultaneously if enough balls are present. Scoring is achieved when a ball reaches a home cell, and the aim is to score as many goals as possible. To accomplish this, teams must strategically define their players&amp;rsquo; initial positions and movements.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;parallel_football.png&#34; alt=&#34;Game Board Screenshot&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-organisms&#34;&gt;2. Organisms&lt;/h2&gt;
+&lt;p&gt;“Organisms” is a virtual ecosystem, manifested as a grid. Organisms on the grid rely on energy to survive, which they can obtain from eating food scattered across the grid. As these organisms move, reproduce, and interact with their environment, they adhere to specific rules and constraints. It is a game with imperfect information where each organism can only “see” in the four orthogonal directions, which gives them information about the presence of food and other organisms on a neighboring square. Each organism also has a number between 0 and 255 called its external state which is viewable by the organisms on the neighboring squares. The essence of this project is to observe, understand, and predict how these organisms will behave, adapt, and evolve over time in a world filled with opportunities and threat&lt;/p&gt;
+&lt;p&gt;There are multiple ways to define success in the context of this project. Our group’s goal was to create an adaptable, versatile brain that is able to survive in many different environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;organisms.png&#34; alt=&#34;Game Board Screenshot&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-seven&#34;&gt;3. Seven&lt;/h2&gt;
+&lt;p&gt;Seven, a Scrabble inspired game entails creating a player whose task is to bid on letters in an efficient manner to make high-scoring words. Players bid on letters from a common pool of 98 letters and aim to create high-scoring words, preferably creating words with a score higher than what the player spent to create that word. Starting from a score of 100, each player plays for n rounds with 8p bids per round where p is the number of players in the game. Each letter has a score attached to it which is directly proportional to how rare the letter is in the English language. Players can make up to 7 letter words with 7 letter words bagging them additional 50 points. Each game can also be played with 0 to 6 secret letters that are dealt to each player randomly at the start of every round. These secret letters are taken from the initial common pool of 96 letters itself. Each bid is submitted simultaneously and the winning bid has to pay the amount of the second-highest bid for the letter up for auction, following the rules of Vickrey auction. In a round, letters are auctioned without replacement. In the event of a tie, the simulator randomly selects a winner amongst the top bidders. Words are deemed valid by checking them against a list of 1 to 7 letter valid word lists and are awarded respective scores&lt;/p&gt;
+&lt;p&gt;The team created a player whose bidding strategy relied on a combination of trying to make 7 letter words by using the letters efficiently by determining the best ‘n’ future words we can make at every bidding round and a ‘memory’ heuristic which kept track of the previous winning and highest bids made for the letter over the rounds&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;seven.png&#34; alt=&#34;Game Board Screenshot&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-mosquito&#34;&gt;4. Mosquito&lt;/h2&gt;
+&lt;p&gt;Mosquito is a single player game with very simple gameplay. Before a game starts, the player gets access to the board’s layout, which includes a set of walls that are guaranteed not to completely partition the board. The player is also told how many lights they can place. The goal is to place these lights anywhere on the board so that they capture 50% randomly placed mosquitos as quickly as possible. The player can also place one collector, and when a mosquito flies over the collector, they are captured and removed from the board. The player must submit their placements before the game starts, and cannot edit them afterwards.&lt;/p&gt;
+&lt;p&gt;The team developed a player called Itchy Infantry that has a greedy approach to Mosquito. Itchy Infantry simulates many rounds and returns the best simulated round’s lights and collector. Within the simulation, it places the first light and the collector in what it perceives as one of the most open spots, and has a greedy approach afterwards, placing lights in the position that covers the most open area.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mosquito.png&#34; alt=&#34;Game Board Screenshot&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>JP Morgan Chase &amp; Co.</title>
+      <link>http://localhost:1313/experience/jpmc/__index/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/jpmc/__index/</guid>
+      <description>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
+&lt;p&gt;I started my journey with JP Morgan Chase &amp;amp; Co. in their investment banking regulatory reporting department as an intern during my last undergraduate semester. I started by understanding the domain of regulatory reporting and the trade life cycle. Since our team handled real-time regulatory reporting for the investment firm, I got to work on real-time low-latency systems, streaming and batch frameworks and cloud microservice architectures with multiple scalable components. I also worked on its own custom streaming and batch framework to gain a processing throughput of about 4 million messages a day with a average of 0.17 seconds of end-to-end latency per message. We also used docker and Kubernetes to deploy most of our microservices on cloud and some services on our data centers as required by regulatory authorities. There is also a complex networking structure in a hybrid network. With developing these models from scratch, I learnt a lot about system design, analysing frameworks, streaming and batch systems and how to find, analyse and remediate performance bottlenecks.&lt;/p&gt;</description>
+      <content>&lt;h3 id=&#34;role&#34;&gt;Role&lt;/h3&gt;
+&lt;p&gt;I started my journey with JP Morgan Chase &amp;amp; Co. in their investment banking regulatory reporting department as an intern during my last undergraduate semester. I started by understanding the domain of regulatory reporting and the trade life cycle. Since our team handled real-time regulatory reporting for the investment firm, I got to work on real-time low-latency systems, streaming and batch frameworks and cloud microservice architectures with multiple scalable components. I also worked on its own custom streaming and batch framework to gain a processing throughput of about 4 million messages a day with a average of 0.17 seconds of end-to-end latency per message. We also used docker and Kubernetes to deploy most of our microservices on cloud and some services on our data centers as required by regulatory authorities. There is also a complex networking structure in a hybrid network. With developing these models from scratch, I learnt a lot about system design, analysing frameworks, streaming and batch systems and how to find, analyse and remediate performance bottlenecks.&lt;/p&gt;
+&lt;h3 id=&#34;positions&#34;&gt;Positions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Software Engineer II             (Feb 2023 - Jul 2023)&lt;/li&gt;
+&lt;li&gt;Software Engineer I              (Aug 2020 - Jan 2023)&lt;/li&gt;
+&lt;li&gt;Software Engineer Intern         (Jan 2020 - Jul 2020)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Some of the technologies I used extensively:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Languages: Java, SQL, bash, Python&lt;/li&gt;
+&lt;li&gt;Frameworks and Technologies: Spring, JUnit, Mockito, Apache Kafka, FIX Engine, MongoDB, EhCache, Oracle BDB, Hadoop, Oracle Exadata&lt;/li&gt;
+&lt;li&gt;Tools: Docker, Kubernetes, AWS, Jenkins, Control-M, Splunk, Dynatrace, Gradle, Maven, Git&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Learning Management System</title>
+      <link>http://localhost:1313/projects/lms/__index/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/lms/__index/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Circa 2020&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It was the middle of the Covid-19 global pandemic and among the worst hit in the education sector were underprivileged children in school. The goal was to make a cost-effective and easily manageable learning management system which could enable instructors and schools to impart education and students to learn from their houses. A small team comprising of junior (including me) and senior developers from JP Morgan Chase collaborated with Tata Institute of Social Sciences to create this system. It was deployed on an AWS infrastructure using DynamoDB and S3 as its storage components with the application written in ReactJS and NodeJS.&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;em&gt;Circa 2020&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It was the middle of the Covid-19 global pandemic and among the worst hit in the education sector were underprivileged children in school. The goal was to make a cost-effective and easily manageable learning management system which could enable instructors and schools to impart education and students to learn from their houses. A small team comprising of junior (including me) and senior developers from JP Morgan Chase collaborated with Tata Institute of Social Sciences to create this system. It was deployed on an AWS infrastructure using DynamoDB and S3 as its storage components with the application written in ReactJS and NodeJS.&lt;/p&gt;
+&lt;p&gt;The application consisted of a student and instructor portal which were analogous to a customer and admin portal. Each school could have its own instructor portal, course management systems and grading systems. Students could register as a part of a school or as individuals to learn publicly available courses. The application was also made to be lightweight and consume low bandwidth especially during video streaming so as to perform well in poor network conditions.&lt;/p&gt;
+&lt;p&gt;I worked on the backend development, primarily on the API structure design, development, testing and connectivity to the front end. I also worked on designing the AWS infrastructure, configuring security policies and setting up S3 and DynamoDB after doing a cost analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lms_home.png&#34; alt=&#34;Home Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lms_course.png&#34; alt=&#34;Course Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lms_learning_path.png&#34; alt=&#34;Learning Path Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lms_admin.png&#34; alt=&#34;Admin Console Screen&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>An Approach to Reducing Uncertainty Problem in NIDS</title>
+      <link>http://localhost:1313/projects/nids/__index/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/nids/__index/</guid>
+      <description>&lt;p&gt;Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.&lt;/p&gt;
+&lt;p&gt;The project&amp;rsquo;s goal was to train the system on a variety of malicious and non-malicious packets and then build a model through which it can then predict and bucket the packet. The first layer of this project uses a Genetic Algorithm as a feature selection algorithm on a combination of KDDCup99 Dataset, NSL KDD data set and packets collected through Wireshark by simulating cyber attacks in a LAN. By using a fitness function on a random forest classifier which rewards a chromosome for high accuracy and low false positives and error rates, the data is run through multiple epochs of fitness, selection, crossover and mutation functions to determine the important features from a 43 feature dataset.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.&lt;/p&gt;
+&lt;p&gt;The project&amp;rsquo;s goal was to train the system on a variety of malicious and non-malicious packets and then build a model through which it can then predict and bucket the packet. The first layer of this project uses a Genetic Algorithm as a feature selection algorithm on a combination of KDDCup99 Dataset, NSL KDD data set and packets collected through Wireshark by simulating cyber attacks in a LAN. By using a fitness function on a random forest classifier which rewards a chromosome for high accuracy and low false positives and error rates, the data is run through multiple epochs of fitness, selection, crossover and mutation functions to determine the important features from a 43 feature dataset.&lt;/p&gt;
+&lt;p&gt;The resulting data was then passed through multiple classification algorithms for a comparitive study. This project was published as an &lt;a href=&#34;https://ieeexplore.ieee.org/document/9342634&#34;&gt;IEEE paper&lt;/a&gt; in the 15th IEEE Conference on Industrial and Information Systems.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
