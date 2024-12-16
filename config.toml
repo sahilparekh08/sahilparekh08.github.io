@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = ["hugo-embed-pdf-shortcode", "terminal"]
+theme = "terminal"
 enableInlineShortcodes = true
 paginate = 5
 
