@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Algorithmic Strategies for Competitive Games :: Sahil Parekh</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &ldquo;player&rdquo; for each game by periodically testing your strategies against other teams.
+The 4 projects involved as a part of this are:
+Parallel Football Organisms Seven Mosquito These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="//localhost:1313/projects/algo_games/" />
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="//localhost:1313/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="//localhost:1313/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="//localhost:1313/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Algorithmic Strategies for Competitive Games">
+<meta property="og:description" content="The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &ldquo;player&rdquo; for each game by periodically testing your strategies against other teams.
+The 4 projects involved as a part of this are:
+Parallel Football Organisms Seven Mosquito These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.
+" />
+<meta property="og:url" content="//localhost:1313/projects/algo_games/" />
+<meta property="og:site_name" content="Sahil Parekh" />
+
+  
+    <meta property="og:image" content="//localhost:1313/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2023-12-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Sahil Parekh
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/experience">Experience</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/connect">Connect</a></li>
+        
+      
+        
+          <li><a href="https://sahilparekh08.github.io/resume.pdf">Resume</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/experience">Experience</a></li>
+      
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="/connect">Connect</a></li>
+      
+    
+      
+        <li><a href="https://sahilparekh08.github.io/resume.pdf">Resume</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/projects/algo_games/">Algorithmic Strategies for Competitive Games</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2023-12-01
+        
+          [Updated: 2023-12-01]
+        
+      </span>
+    
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &ldquo;player&rdquo; for each game by periodically testing your strategies against other teams.</p>
+<p>The 4 projects involved as a part of this are:</p>
+<ol>
+<li>Parallel Football</li>
+<li>Organisms</li>
+<li>Seven</li>
+<li>Mosquito</li>
+</ol>
+<p>These projects are a part of the course CIS 5590: Programming and Problem Solving (Fall 2023), University of Pennsylvania. Code for these projects cannot be uploaded to GitHub to adhere to course policies that prevent publishing code to adhere with the academic integrity requirements. Please reach out to me for questions regarding implementation details.</p>
+<h2 id="1-parallel-football">1. Parallel Football<a href="#1-parallel-football" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Parallel Football is a team game, played on a 32x32 grid by four teams. Each team has P players, each occupying a cell, and a home cell located at a corner of the grid. Each cell except for the home cells begins with a football, totaling 1020 footballs overall. The objective is to kick balls to the team&rsquo;s home cell. Teams designate their players&rsquo; initial positions. Players can move one cell in any direction or kick a football within a K-cell range. Although cells may contain multiple balls, players can kick only one ball at a time. However, multiple players can kick simultaneously if enough balls are present. Scoring is achieved when a ball reaches a home cell, and the aim is to score as many goals as possible. To accomplish this, teams must strategically define their players&rsquo; initial positions and movements.</p>
+<p><img src="/projects/algo_games/parallel_football.png" alt="Game Board Screenshot"></p>
+<h2 id="2-organisms">2. Organisms<a href="#2-organisms" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>“Organisms” is a virtual ecosystem, manifested as a grid. Organisms on the grid rely on energy to survive, which they can obtain from eating food scattered across the grid. As these organisms move, reproduce, and interact with their environment, they adhere to specific rules and constraints. It is a game with imperfect information where each organism can only “see” in the four orthogonal directions, which gives them information about the presence of food and other organisms on a neighboring square. Each organism also has a number between 0 and 255 called its external state which is viewable by the organisms on the neighboring squares. The essence of this project is to observe, understand, and predict how these organisms will behave, adapt, and evolve over time in a world filled with opportunities and threat</p>
+<p>There are multiple ways to define success in the context of this project. Our group’s goal was to create an adaptable, versatile brain that is able to survive in many different environments.</p>
+<p><img src="/projects/algo_games/organisms.png" alt="Game Board Screenshot"></p>
+<h2 id="3-seven">3. Seven<a href="#3-seven" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Seven, a Scrabble inspired game entails creating a player whose task is to bid on letters in an efficient manner to make high-scoring words. Players bid on letters from a common pool of 98 letters and aim to create high-scoring words, preferably creating words with a score higher than what the player spent to create that word. Starting from a score of 100, each player plays for n rounds with 8p bids per round where p is the number of players in the game. Each letter has a score attached to it which is directly proportional to how rare the letter is in the English language. Players can make up to 7 letter words with 7 letter words bagging them additional 50 points. Each game can also be played with 0 to 6 secret letters that are dealt to each player randomly at the start of every round. These secret letters are taken from the initial common pool of 96 letters itself. Each bid is submitted simultaneously and the winning bid has to pay the amount of the second-highest bid for the letter up for auction, following the rules of Vickrey auction. In a round, letters are auctioned without replacement. In the event of a tie, the simulator randomly selects a winner amongst the top bidders. Words are deemed valid by checking them against a list of 1 to 7 letter valid word lists and are awarded respective scores</p>
+<p>The team created a player whose bidding strategy relied on a combination of trying to make 7 letter words by using the letters efficiently by determining the best ‘n’ future words we can make at every bidding round and a ‘memory’ heuristic which kept track of the previous winning and highest bids made for the letter over the rounds</p>
+<p><img src="/projects/algo_games/seven.png" alt="Game Board Screenshot"></p>
+<h2 id="4-mosquito">4. Mosquito<a href="#4-mosquito" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Mosquito is a single player game with very simple gameplay. Before a game starts, the player gets access to the board’s layout, which includes a set of walls that are guaranteed not to completely partition the board. The player is also told how many lights they can place. The goal is to place these lights anywhere on the board so that they capture 50% randomly placed mosquitos as quickly as possible. The player can also place one collector, and when a mosquito flies over the collector, they are captured and removed from the board. The player must submit their placements before the game starts, and cannot edit them afterwards.</p>
+<p>The team developed a player called Itchy Infantry that has a greedy approach to Mosquito. Itchy Infantry simulates many rounds and returns the best simulated round’s lights and collector. Within the simulation, it places the first light and the collector in what it perceives as one of the most open spots, and has a greedy approach afterwards, placing lights in the position that covers the most open area.</p>
+<p><img src="/projects/algo_games/mosquito.png" alt="Game Board Screenshot"></p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="//localhost:1313/assets/main.js"></script>
+<script src="//localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
