@@ -164,11 +164,11 @@
         <p><strong>Crawl and Order</strong> is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
 and deliver relevant search results. It consists of four major components:</p>
 <ol>
-<li><strong>Crawler</strong>: Crawls the web and fetches pages. <!-- raw HTML omitted --></li>
-<li><strong>Indexer</strong>: Builds an inverted index from the crawled pages. <!-- raw HTML omitted --></li>
-<li><strong>PageRank</strong>: Ranks pages based on their importance. <!-- raw HTML omitted --></li>
-<li><strong>Ranker</strong>: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. <!-- raw HTML omitted --></li>
-<li><strong>Frontend</strong>: Provides a user-friendly interface to perform web search and image search. <!-- raw HTML omitted --></li>
+<li><strong>Crawler</strong>: Crawls the web and fetches pages.</li>
+<li><strong>Indexer</strong>: Builds an inverted index from the crawled pages.</li>
+<li><strong>PageRank</strong>: Ranks pages based on their importance.</li>
+<li><strong>Ranker</strong>: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance.</li>
+<li><strong>Frontend</strong>: Provides a user-friendly interface to perform web search and image search.</li>
 </ol>
 <p>Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.</p>
 <p>One can submit a Job (such as crawler.jar) to the Flame Coordinator, which will then distribute the job to multiple Flame Workers. The workers will then fetch the data from the KV store (interacting with the KVS Coordinator and subsequently with relevant KVS Workers), process it according to the functions and lambdas specified by the submitted job and write the results back to the KV store. The KV store is also responsible for storing the intermediate results of the computation.</p>

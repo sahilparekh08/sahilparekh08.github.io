@@ -16,21 +16,21 @@
       <description>&lt;p&gt;&lt;strong&gt;Crawl and Order&lt;/strong&gt; is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
 and deliver relevant search results. It consists of four major components:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.&lt;/p&gt;</description>
       <content>&lt;p&gt;&lt;strong&gt;Crawl and Order&lt;/strong&gt; is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
 and deliver relevant search results. It consists of four major components:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search. &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crawler&lt;/strong&gt;: Crawls the web and fetches pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt;: Builds an inverted index from the crawled pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageRank&lt;/strong&gt;: Ranks pages based on their importance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt;: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Provides a user-friendly interface to perform web search and image search.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.&lt;/p&gt;
 &lt;p&gt;One can submit a Job (such as crawler.jar) to the Flame Coordinator, which will then distribute the job to multiple Flame Workers. The workers will then fetch the data from the KV store (interacting with the KVS Coordinator and subsequently with relevant KVS Workers), process it according to the functions and lambdas specified by the submitted job and write the results back to the KV store. The KV store is also responsible for storing the intermediate results of the computation.&lt;/p&gt;
