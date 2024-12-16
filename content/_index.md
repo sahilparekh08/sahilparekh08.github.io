@@ -2,7 +2,7 @@
 
 Welcome!!
 
-I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems. I am deeply curious about employing diverse design techniques and methods to effectively address challenges. My approach always begins with considering multiple perspectives, aiming for the most efficient path to reach a comprehensive solution while maximizing the learning involved. I am particularly enthusiastic about building large-scale systems, working on system design, performance optimization, machine learning, and cloud technologies, and collaborating with peers.
+I am Sahil (he/him), a technology enthusiast driven by a passion for learning and solving real-world problems. My approach always begins with considering multiple perspectives and aiming for the most efficient path to reach a comprehensive solution while maximizing the learning involved. I am particularly enthusiastic about employing scalable design principles, performance optimization techniques, machine learning, and cloud technologies to build high performance, large scale, fault-tolerant systems.
 
 
 ## Experience
@@ -12,7 +12,7 @@ Corporate and Investment Banking, JP Morgan Chase & Co.
 3. Software Engineer Intern         (Jan 2020 - Jul 2020)
 
 University of Pennsylvania
-1. Research Assistant               (Jun 2024 - Present)
+1. Research Assistant               (Jun 2024 - Aug 2024)
 2. Teaching Assistant               (Aug 2023 - May 2024)
 
 
