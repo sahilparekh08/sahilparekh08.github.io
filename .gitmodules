@@ -1,6 +1,0 @@
-[submodule "themes/hugo-embed-pdf-shortcode"]
-	path = themes/hugo-embed-pdf-shortcode
-	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
-[submodule "themes/re-terminal"]
-	path = themes/re-terminal
-	url = https://github.com/mirus-ua/hugo-theme-re-terminal.git
