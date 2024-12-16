@@ -22,7 +22,7 @@ Communication between the components is done using the HTTP protocol. All the co
 
 ![System Architecture](arch.jpg)
 
-![High Level Flow](high_level_approach.jpg)
+![High Level Flow](high_level_approach.png)
 
 ![Home Page](home_page.png)
 
