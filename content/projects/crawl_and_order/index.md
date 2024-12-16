@@ -21,6 +21,14 @@ The most fundamental unit of computation of the Flame framework are FlameRDDs an
 
 Communication between the components is done using the HTTP protocol. All the components run a multithreaded HTTP webserver to process requests. The KV Store persists data in Protobuf format.
 
+**Key Features**
+
+| Crawler       | Indexer       | PageRank       |
+|----------------|----------------|----------------|
+| Intra-server multithreading | Indexed URLs on page content, meta tags and site properties | Optimised memory footprint |
+| URL Depth limiting and priority based sampling to ensure host diversity | Utilised stemming and tokenisation | Implemented per epoch checkpointing |
+| Integrated host blacklists | Built a batch processing mode | Implemented heuristics to prevent sink URL problem |
+
 ![System Architecture](./arch.jpg)
 
 ![High Level Flow](high_level_approach.png)
