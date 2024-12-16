@@ -1,6 +1,7 @@
 ---
 title: "PennCloud"
-date: 2024-03-01
+description: "Developed PennCloud, a distributed, scalable, and fault-tolerant system featuring email, file storage, folder management, and collaborative spreadsheets. Key components include dynamic server membership, load balancing, gRPC, causal consistency, and an admin console for server monitoring and scalability"
+date: "2024-05-01"
 ---
 
 PennCloud exemplifies a distributed, scalable, and fault-tolerant system. It encompasses a frontend interface enabling users to send emails to PennCloud users and external users, store and retrieve files and manage related folders and work on collaborative spreadsheets. The system also offers user authentication and password management.

@@ -1,6 +1,7 @@
 ---
 title: "JP Morgan Chase & Co."
-date: 2020-01-20
+description: "Designed and optimized real-time, low-latency systems at JP Morgan Chase, leveraging microservice architecture, cloud infrastructure and custom stream processing frameworks."
+date: "2023-07-07"
 ---
 
 ### Role

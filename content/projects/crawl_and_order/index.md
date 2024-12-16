@@ -1,16 +1,17 @@
 ---
 title: "Crawl And Order, a Distributed Search Engine"
-date: 2024-12-13
+description: "Built a scalable cloud-based search engine with components for crawling, indexing, ranking, and frontend search. Built on distributed Key-Value storage and the Flame framework (similar to Apache Spark).Communication between components is done via HTTP, and data is stored in Protobuf format"
+date: "2024-12-01"
 ---
 
 **Crawl and Order** is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
 and deliver relevant search results. It consists of four major components:
 
-1. **Crawler**: Crawls the web and fetches pages. <br />
-2. **Indexer**: Builds an inverted index from the crawled pages. <br />
-3. **PageRank**: Ranks pages based on their importance. <br />
-4. **Ranker**: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance. <br />
-5. **Frontend**: Provides a user-friendly interface to perform web search and image search. <br />
+1. **Crawler**: Crawls the web and fetches pages.
+2. **Indexer**: Builds an inverted index from the crawled pages.
+3. **PageRank**: Ranks pages based on their importance.
+4. **Ranker**: Queries the inverted index and the pagerank results to compute a final score for every relevant URL and order them in decreasing order of relevance.
+5. **Frontend**: Provides a user-friendly interface to perform web search and image search.
 
 Under the hood, the project is built on a scalable distributed Key-Value storage which exposes simple operations like GET, PUT and DELETE. Interaction with the KV store is through a distributed computational framework called Flame, which is similar in its functionality to Apache Spark.
 
@@ -20,7 +21,7 @@ The most fundamental unit of computation of the Flame framework are FlameRDDs an
 
 Communication between the components is done using the HTTP protocol. All the components run a multithreaded HTTP webserver to process requests. The KV Store persists data in Protobuf format.
 
-![System Architecture](arch.jpg)
+![System Architecture](./arch.jpg)
 
 ![High Level Flow](high_level_approach.png)
 

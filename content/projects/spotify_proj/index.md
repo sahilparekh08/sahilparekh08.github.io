@@ -1,6 +1,7 @@
 ---
 title: "Spotify Trending Song Prediction"
-date: 2024-03-01
+description: "Developed a predictive model to determine the viral potential of songs using Spotify datasets, incorporating song features and chart performance. The project involved EDA, data pre-processing and cleaning, and classification models (Logistic Regression, Neural Networks, and Decision Trees) on an Apache Spark cluster"
+date: "2024-05-01"
 ---
 
 The aim of this project is to create a predictive model to determine the viral potential of songs based on a comprehensive analysis of song statistics. To achieve this, we utilized two primary datasets from Spotify. The first dataset contains detailed information on over 1.2 million songs, including their energy index, danceability, liveness, tempo, and other musical features. The second dataset contains information on the performance of songs across various Spotify charts, detailing their presence and duration within these charts throughout different years.

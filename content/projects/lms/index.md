@@ -1,6 +1,7 @@
 ---
 title: "Learning Management System"
-date: 2020-12-01
+description: "Contributed to the development of a cost-effective learning management system during the Covid-19 pandemic, collaborating with JP Morgan Chase and Tata Institute of Social Sciences. Worked on backend development, API design, testing, and connectivity, as well as configuring AWS infrastructure and security policies"
+date: "2021-08-01"
 ---
 
 _Circa 2020_.

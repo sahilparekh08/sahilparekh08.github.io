@@ -1,6 +1,7 @@
 ---
 title: "Algorithmic Strategies for Competitive Games"
-date: 2023-12-01
+description: "Worked on four projects: Parallel Football, Organisms, Seven, and Mosquito. The projects involved building algorithmic strategies and performance optimizations to create a 'player' for each game and testing strategies against other teams"
+date: "2023-12-01"
 ---
 
 The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a "player" for each game by periodically testing your strategies against other teams.

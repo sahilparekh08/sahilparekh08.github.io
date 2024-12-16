@@ -1,6 +1,7 @@
 ---
 title: "An Approach to Reducing Uncertainty Problem in NIDS"
-date: 2019-09-01
+description: "Developed a machine learning-based Network Intrusion Detection System using Genetic Algorithms for feature selection, applying KDDCup99, NSL KDD datasets, and Wireshark-captured packets. The system utilized a random forest classifier to optimize accuracy and minimize false positives. Published in the 15th IEEE Conference on Industrial and Information Systems"
+date: "2020-12-01"
 ---
 
 Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.
