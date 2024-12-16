@@ -40,16 +40,23 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      # - name: Checkout
+      #   uses: actions/checkout@v3
+      #   with:
+      #     submodules: recursive
+      #     fetch-depth: 0
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+          npm run build"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -64,6 +71,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+      - name: Check theme folder
+        run: ls -alh themes/
+
 
   # Deployment job
   deploy:

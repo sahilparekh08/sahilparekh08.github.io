@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Sahil Parekh&#39;s Personal Website</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Sahil Parekh&#39;s Personal Website</description>
+    <title>Projects on Sahil Parekh</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on Sahil Parekh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crawl And Order, a Distributed Search Engine</title>
-      <link>http://localhost:1313/projects/crawl_and_order/__index/</link>
+      <link>//localhost:1313/projects/crawl_and_order/__index/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/crawl_and_order/__index/</guid>
+      <guid>//localhost:1313/projects/crawl_and_order/__index/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Crawl and Order&lt;/strong&gt; is a scalable, cloud-based search engine. The system is designed to efficiently handle user queries
 and deliver relevant search results. It consists of four major components:&lt;/p&gt;
 &lt;ol&gt;
@@ -46,10 +46,10 @@ and deliver relevant search results. It consists of four major components:&lt;/p
     
     <item>
       <title>PennCloud</title>
-      <link>http://localhost:1313/projects/penncloud/__index/</link>
+      <link>//localhost:1313/projects/penncloud/__index/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/penncloud/__index/</guid>
+      <guid>//localhost:1313/projects/penncloud/__index/</guid>
       <description>&lt;p&gt;PennCloud exemplifies a distributed, scalable, and fault-tolerant system. It encompasses a frontend interface enabling users to send emails to PennCloud users and external users, store and retrieve files and manage related folders and work on collaborative spreadsheets. The system also offers user authentication and password management.&lt;/p&gt;
 &lt;p&gt;Key terms:&lt;/p&gt;
 &lt;ul&gt;
@@ -83,10 +83,10 @@ and deliver relevant search results. It consists of four major components:&lt;/p
     
     <item>
       <title>Spotify Trending Song Prediction</title>
-      <link>http://localhost:1313/projects/spotify_proj/__index/</link>
+      <link>//localhost:1313/projects/spotify_proj/__index/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/spotify_proj/__index/</guid>
+      <guid>//localhost:1313/projects/spotify_proj/__index/</guid>
       <description>&lt;p&gt;The aim of this project is to create a predictive model to determine the viral potential of songs based on a comprehensive analysis of song statistics. To achieve this, we utilized two primary datasets from Spotify. The first dataset contains detailed information on over 1.2 million songs, including their energy index, danceability, liveness, tempo, and other musical features. The second dataset contains information on the performance of songs across various Spotify charts, detailing their presence and duration within these charts throughout different years.&lt;/p&gt;</description>
       <content>&lt;p&gt;The aim of this project is to create a predictive model to determine the viral potential of songs based on a comprehensive analysis of song statistics. To achieve this, we utilized two primary datasets from Spotify. The first dataset contains detailed information on over 1.2 million songs, including their energy index, danceability, liveness, tempo, and other musical features. The second dataset contains information on the performance of songs across various Spotify charts, detailing their presence and duration within these charts throughout different years.&lt;/p&gt;
 &lt;p&gt;By analyzing these datasets, we developed a robust predictive model that can forecast the likelihood of a song going viral. This was achieved by examining both the intrinsic qualities of the songs and their historical performance on Spotify charts. Each section of our Jupyter Notebook (added to the GitHub repository linked below) is carefully annotated to explain the rationale behind our analysis, the methodologies employed, and the insights derived from the findings.&lt;/p&gt;
@@ -106,16 +106,16 @@ c. Decision Tree based models&lt;/li&gt;
     
     <item>
       <title>Kafka Streams Application</title>
-      <link>http://localhost:1313/projects/kafka_streams/__index/</link>
+      <link>//localhost:1313/projects/kafka_streams/__index/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/kafka_streams/__index/</guid>
+      <guid>//localhost:1313/projects/kafka_streams/__index/</guid>
       <description>&lt;p&gt;This is a Java based application demonstrating stream processing applications using Kafka. The app consists of a bash script giving the user flexibility to spin up their own Apache Kafka cluster with configurable number of machines, replicatino factor and the ability to create their own topics. It also provides the users a Producer and Consumer API, the ability to read PDF files word by word using Apache PDFBox. Gradle is used for dependency management. The application shows a word count example utilizing a sliding window property of streams and fetching the top N highest occuring non-ordinary and ordinary (articles, pronouns, prepositions, etc) words in a collection of PDF files.&lt;/p&gt;</description>
       <content>&lt;p&gt;This is a Java based application demonstrating stream processing applications using Kafka. The app consists of a bash script giving the user flexibility to spin up their own Apache Kafka cluster with configurable number of machines, replicatino factor and the ability to create their own topics. It also provides the users a Producer and Consumer API, the ability to read PDF files word by word using Apache PDFBox. Gradle is used for dependency management. The application shows a word count example utilizing a sliding window property of streams and fetching the top N highest occuring non-ordinary and ordinary (articles, pronouns, prepositions, etc) words in a collection of PDF files.&lt;/p&gt;
 &lt;p&gt;GitHub Repo: &lt;a href=&#34;https://github.com/sahilparekh08/Kafka-Streams-App&#34;&gt;Kafka-Streams-App&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Refernces:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf&#34;&gt;Kafka: a Distributed Messaging System for Log Processing&lt;/a&gt; by Jay Kreps, Neha Narkhede, Jun Rao; NetDB workshop &amp;lsquo;11, 2011&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ZgotmplZ&#34;&gt;Kafka: a Distributed Messaging System for Log Processing&lt;/a&gt; by Jay Kreps, Neha Narkhede, Jun Rao; NetDB workshop &amp;lsquo;11, 2011&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3242153.3242155&#34;&gt;Streams and Tables: Two Sides of the Same Coin&lt;/a&gt; by Matthias J. Sax, Guozhang Wang, Matthias Weidlich, Johann-Christoph Freytag; BIRTE &amp;lsquo;18: Proceedings of the International Workshop on Real-Time Business Intelligence and Analytics, 2018&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/37/documentation/streams/core-concepts&#34;&gt;https://kafka.apache.org/37/documentation/streams/core-concepts&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html&#34;&gt;https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html&lt;/a&gt;&lt;/li&gt;
@@ -125,10 +125,10 @@ c. Decision Tree based models&lt;/li&gt;
     
     <item>
       <title>Algorithmic Strategies for Competitive Games</title>
-      <link>http://localhost:1313/projects/algo_games/__index/</link>
+      <link>//localhost:1313/projects/algo_games/__index/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/algo_games/__index/</guid>
+      <guid>//localhost:1313/projects/algo_games/__index/</guid>
       <description>&lt;p&gt;The aim of the projects was to iteratively build on algorithmic strategies and performance optimisations to submit a &amp;ldquo;player&amp;rdquo; for each game by periodically testing your strategies against other teams.&lt;/p&gt;
 &lt;p&gt;The 4 projects involved as a part of this are:&lt;/p&gt;
 &lt;ol&gt;
@@ -167,10 +167,10 @@ c. Decision Tree based models&lt;/li&gt;
     
     <item>
       <title>Learning Management System</title>
-      <link>http://localhost:1313/projects/lms/__index/</link>
+      <link>//localhost:1313/projects/lms/__index/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/lms/__index/</guid>
+      <guid>//localhost:1313/projects/lms/__index/</guid>
       <description>&lt;p&gt;&lt;em&gt;Circa 2020&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;It was the middle of the Covid-19 global pandemic and among the worst hit in the education sector were underprivileged children in school. The goal was to make a cost-effective and easily manageable learning management system which could enable instructors and schools to impart education and students to learn from their houses. A small team comprising of junior (including me) and senior developers from JP Morgan Chase collaborated with Tata Institute of Social Sciences to create this system. It was deployed on an AWS infrastructure using DynamoDB and S3 as its storage components with the application written in ReactJS and NodeJS.&lt;/p&gt;</description>
       <content>&lt;p&gt;&lt;em&gt;Circa 2020&lt;/em&gt;.&lt;/p&gt;
@@ -186,10 +186,10 @@ c. Decision Tree based models&lt;/li&gt;
     
     <item>
       <title>An Approach to Reducing Uncertainty Problem in NIDS</title>
-      <link>http://localhost:1313/projects/nids/__index/</link>
+      <link>//localhost:1313/projects/nids/__index/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/nids/__index/</guid>
+      <guid>//localhost:1313/projects/nids/__index/</guid>
       <description>&lt;p&gt;Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.&lt;/p&gt;
 &lt;p&gt;The project&amp;rsquo;s goal was to train the system on a variety of malicious and non-malicious packets and then build a model through which it can then predict and bucket the packet. The first layer of this project uses a Genetic Algorithm as a feature selection algorithm on a combination of KDDCup99 Dataset, NSL KDD data set and packets collected through Wireshark by simulating cyber attacks in a LAN. By using a fitness function on a random forest classifier which rewards a chromosome for high accuracy and low false positives and error rates, the data is run through multiple epochs of fitness, selection, crossover and mutation functions to determine the important features from a 43 feature dataset.&lt;/p&gt;</description>
       <content>&lt;p&gt;Detecting malicious packets on the fly with minimal lag time is a very important feature of a Network Intrusion Detection System. With the use of machine learning algorithms, the detection becomes more robust as it aids the rules coded into the system and also helps in detecting packets which might be malicious for which rules have not been written yet.&lt;/p&gt;
