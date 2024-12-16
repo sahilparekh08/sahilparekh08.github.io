@@ -24,6 +24,8 @@ Communication between the components is done using the HTTP protocol. All the co
 
 ![High Level Flow](high_level_approach.jpg)
 
+![Home Page](home_page.png)
+
 GitHub Repo: [Crawl-And-Order](https://github.com/sahilparekh08/Crawl-And-Order)
 
 NOTE: This project was a part of the course CIS 5550: Internet and Web Systems (Fall 2024), University of Pennsylvanai
