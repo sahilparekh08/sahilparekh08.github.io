@@ -1,33 +1,66 @@
-baseURL = "https://sahilparekh08.github.io/"
-title = "Sahil Parekh's Personal Website"
+baseurl = "/"
 languageCode = "en-us"
 theme = "re-terminal"
+pagination.pagerSize = 5
 
 [params]
-  title = "Sahil Parekh"
-  owner = "Sahil Parekh"
-  keywords = ""
-  copyright = ""
-  readMore = "Read more"
-  description = "Projects, Experience, and Contact Information"
-  footer = "© 2024 Sahil Parekh"
-  missingContentMessage = "Page not found..."
-  missingBackButtonLabel = "Back to home page"
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Experience"
-    url = "/experience/"
-    weight = 2
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Sahil Parekh"
+    subtitle = ""
+    owner = "Sahil Parekh"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Sahil Parekh"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "experience"
+        name = "Experience"
+        url = "/experience"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "connect"
+        name = "Connect"
+        url = "/connect"
+        weight = 3
