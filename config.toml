@@ -32,17 +32,18 @@ pagination.pagerSize = 5
   [languages.en]
     languageName = "English"
     title = "Sahil Parekh"
-    subtitle = ""
-    owner = "Sahil Parekh"
-    keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    [languages.en.params]
+      subtitle = ""
+      owner = "Sahil Parekh"
+      keywords = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
       logoText = "Sahil Parekh"
