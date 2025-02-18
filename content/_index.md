@@ -23,4 +23,4 @@ University of Pennsylvania
 
 I enjoy art and crafts🎨, visiting the beach🌊 and exploring new places! I play the guitar🎸 and going out for live gigs is my favourite kind of outing! I also love playing sports like badminton and volleyball.
 
-I am current a treasurer and guitarist for [Penn Sargam](https://upennsargam.wixsite.com/home), one of America's first student-groups dedicated to promoting South Asian fusion music. During my undergraduate education years, I have been a Junior and Senior Correspondent for [SPark](https://spark.spit.ac.in/), Sardar Patel Institute of Technology's official magazine and I also found the college band which then became the Music and Dramatics club, Mudra.
+I am currently a treasurer and guitarist for [Penn Sargam](https://upennsargam.wixsite.com/home), one of America's first student-groups dedicated to promoting South Asian fusion music. Previously, I was a Junior and Senior Correspondent for [SPark](https://spark.spit.ac.in/), Sardar Patel Institute of Technology's official magazine and a founding member of ardar Patel Institute of Technology's college band which then became the Music and Dramatics club, Mudra.
