@@ -15,7 +15,7 @@ University of Pennsylvania
 
 
 ## Education
-- Candidate for Master of Science in Engineering, Computer and Information Science (Concentration: Systems) [CGPA: 3.83/4] from University of Pennsylvania (2023-2025)
+- Master of Science in Engineering, Computer and Information Science (Concentration: Systems) [CGPA: 3.88/4] from University of Pennsylvania (2023-2025)
 - Bachelor of Engineering, Information Technology [CGPA: 9.53/10] from University of Mumbai (2016-2020)
 
 
