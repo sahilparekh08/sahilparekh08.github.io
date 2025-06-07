@@ -1,5 +1,5 @@
 ---
-title: "PennCloud"
+title: "PennCloud, a Google Suite Replica"
 description: "Developed PennCloud, a distributed, scalable, and fault-tolerant system featuring email, file storage, folder management, and collaborative spreadsheets. Key components include dynamic server membership, load balancing, gRPC, causal consistency, and an admin console for server monitoring and scalability"
 date: "2024-05-01"
 ---
