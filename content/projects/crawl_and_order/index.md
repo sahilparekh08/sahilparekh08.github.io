@@ -1,6 +1,6 @@
 ---
 title: "Crawl And Order, a Distributed Search Engine"
-description: "Built a scalable cloud-based search engine with components for crawling, indexing, ranking, and frontend search. Built on distributed Key-Value storage and the Flame framework (similar to Apache Spark).Communication between components is done via HTTP, and data is stored in Protobuf format"
+description: "Built a scalable cloud-based search engine with components for crawling, indexing, ranking, and frontend search. Built on distributed Key-Value storage and an Apache Spark-like framework built from scratch. Communication between components is done via HTTP, and data is stored in Protobuf format"
 date: "2024-12-01"
 ---
 
