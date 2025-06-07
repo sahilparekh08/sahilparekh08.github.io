@@ -1,5 +1,5 @@
 ---
-title: "Microservices Benchmarking Analysis"
+title: "Microservices Benchmarking and Analysis"
 description: "A framework for profiling and analyzing performance of microservices in the DeathStarBench suite. Combines hardware performance counters, core-level profiling, and Jaeger distributed tracing to identify bottlenecks, measure resource usage, and evaluate the impact of cache partitioning and CPU pinning."
 date: "2025-02-01"
 ---
